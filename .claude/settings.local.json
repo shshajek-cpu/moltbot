@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:blog.cloudflare.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(git clone:*)",
+      "Bash(xcopy /E /Y /I \"temp_moltworker\\\\*\" \".\" /EXCLUDE:temp_moltworker.git)",
+      "Bash(powershell -Command:*)",
+      "Bash(npm install:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git reset:*)",
+      "Bash(npx wrangler secret put:*)",
+      "Bash(npx wrangler login:*)",
+      "Bash(node -e:*)",
+      "Bash(npm run deploy:*)",
+      "Bash(npx wrangler deployments:*)",
+      "Bash(npx wrangler whoami)",
+      "Bash(npx wrangler versions:*)",
+      "WebFetch(domain:moltbot-sandbox.shshajek-cpu.workers.dev)",
+      "Bash(npx wrangler:*)",
+      "WebFetch(domain:moltbot-sandbox.shshajek.workers.dev)",
+      "Bash(curl:*)",
+      "Bash(docker builder prune:*)",
+      "Bash(docker image prune:*)"
+    ]
+  }
+}
